@@ -1,17 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Node App</title>
+    <title>Financilux</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Welcome to My Node.js App</h1>
-        <p>This is a simple home page served by Express.</p>
-        <button id="clickBtn">Click Me</button>
-    </div>
+    <header>
+        <div class="logo">
+            <div class="logo-icon"></div>
+            <span>Financilux</span>
+        </div>
+        <nav>
+            <a href="#">Platform</a>
+            <a href="#">Features</a>
+            <a href="#">How it works</a>
+        </nav>
+        <div class="header-actions">
+            <button class="btn-primary">Get The App</button>
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="hero-section">
+        <div class="hero-content">
+            <div class="trial-tag">
+                <span class="icon">⚡</span> Explore a 14 day <strong>free trial</strong>
+            </div>
+            <h1>Financial <br> Tracking <br> Platform</h1>
+            <div class="hero-buttons">
+                <button class="btn-primary-large">Try for free</button>
+                <button class="btn-secondary-large"><span class="play-icon">▶</span> See demo</button>
+            </div>
+
+            <div class="stats-card">
+                <div class="stat-number">1 million +</div>
+                <div class="stat-desc">Every month cashback for our clients</div>
+                <div class="stat-visual">
+                    <span>❖</span> <span>••</span> <span class="wave">~~~~</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="image-container">
+                <div class="orange-arrow-circle">↘</div>
+                <div class="pattern-box">
+                    <div class="pattern-dots"></div>
+                    <p>Take your<br>expenses<br>under control</p>
+                </div>
+                <img src="hero_image.svg" alt="Happy user" class="hero-img">
+                <div class="download-badge">
+                    <span class="count">70 k</span>
+                    <span class="label">DOWNLOADS</span>
+                </div>
+            </div>
+            <div class="connecting-line"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-item">
+            <div class="icon">🔗</div>
+            <div class="text">
+                <h3>Subscriptions</h3>
+                <p>Make your money analysis faster and create your own way of saving on payments.</p>
+            </div>
+        </div>
+        <div class="footer-item">
+            <div class="icon">📱</div>
+            <div class="text">
+                <h3>Mobile Application</h3>
+                <p>Shows income, expenses, credit score, savings goals, net worth, investments.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
+
 </html>
